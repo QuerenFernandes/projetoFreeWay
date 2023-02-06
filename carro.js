@@ -1,30 +1,31 @@
 // CÓDIGO DO CARRO
 
-//CARRO 1
-let xCarro = 600;
-let yCarro = 40;
-let velocidadeCarro1 = 2;
 
-//CARRO 2
-let xCarro2 = 600;
-let yCarro2 = 96;
-let velocidadeCarro2 = 3;
-
-//CARRO 3
-let xCarro3 = 600;
-let yCarro3 = 150;
-let velocidadeCarro3 = 2.5;
+//Criando listas para diminuir o código repetido. Chama o elemento pelo índice.
+let xCarros = [600, 600, 600];
+let yCarros = [40, 96, 150 ];
+let velocidadeCarros = [2, 3, 2.5];
 
 function mostraCarro() {
-    image(imagemCarro, xCarro, yCarro, 50, 40);
-    image(imagemCarro2, xCarro2, yCarro2, 50, 40);
-    image(imagemCarro3, xCarro3, yCarro3, 50, 40);
+    image(imagemCarro, xCarros[0], yCarros[0], 50, 40);
+    image(imagemCarro2, xCarros[1], yCarros[1], 50, 40);
+    image(imagemCarro3, xCarros[2], yCarros[2], 50, 40);
   }
   
   function movimentaCarro() {
-    xCarro -= velocidadeCarro1;
-    xCarro2 -= velocidadeCarro2;
-    xCarro3 -= velocidadeCarro3;
+    xCarros[0] -= velocidadeCarros[0];
+    xCarros[1] -= velocidadeCarros[1];
+    xCarros[2] -= velocidadeCarros[2];
   }
   
-  
+  function voltaPosicaoInicialDoCarro() {
+    if (xCarros[0] < -50 ){
+      xCarros[0] = 600;
+    }
+    if (xCarros[1] < -50 ){
+      xCarros[1] = 600;
+    }
+    if (xCarros[2] < -50 ){
+      xCarros[2] = 600;
+    }
+  }
