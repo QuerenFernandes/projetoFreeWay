@@ -2,6 +2,8 @@
 let xAtor = 100;
 let yAtor = 366;
 let colisao = false;
+let meusPontos = 0;
+
 
 function mostraAtor() {
     image(imagemDoAtor, xAtor, yAtor, 30, 30); 
@@ -27,6 +29,10 @@ function movimentaAtor() {
     }
   }
 
-  function colidiu (){
+function colidiu (){
     yAtor = 366;
   }
+
+function incluiPontos(){
+  Text(meusPontos, widht / 5, 60);
+}
