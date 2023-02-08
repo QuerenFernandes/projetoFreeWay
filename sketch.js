@@ -11,6 +11,7 @@ function draw() {
   voltaPosicaoInicialDoCarro();
   verificaColisao();
   incluiPontos();
+  marcaPonto();
 }
 
 
