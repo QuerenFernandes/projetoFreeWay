@@ -1,4 +1,4 @@
-# Freeway
+# Projeto Freeway
 
 O projeto é uma réplica do jogo Freeway do Atari, desenvolvida usando o JavaScript.  🕹  
 
