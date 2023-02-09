@@ -1,17 +1,13 @@
-# Nome do meu projeto
+# Freeway
 
-Rápida descrição do objetivo de fazer esse projeto
+O projeto é uma réplica do jogo Freeway do Atari, desenvolvida usando o JavaScript.  🕹  
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+No código fiz o uso de funções e vários laços de repetição. Também tem som, tanto em loop quanto de interação (quando você ganha/perde ponto). Foquei na estrutura do código, pensando no conceito de código limpo e bem estruturado. 
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+O foco foi no uso do Javascript, mas o projeto também tem o HTML e o CSS. 🚀 💻
 
-## Detalhes do projeto
+Você pode conferir o projeto completo em: 
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+
+https://user-images.githubusercontent.com/95857175/217953357-e3de13a3-d64a-443b-8731-0506a9f1bbbb.mp4#vitrinedev
+
